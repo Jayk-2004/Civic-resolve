@@ -3,7 +3,7 @@ const express = require('express');
 const cors = require('cors');
 const connectDB = require('./config/db');
 
-// IMPORT THE NEW BOT
+
 const initializeWhatsAppBot = require('./services/whatsappBot');
 
 connectDB();
