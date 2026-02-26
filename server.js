@@ -34,7 +34,6 @@ app.listen(PORT, () => {
     console.log(`Server started on port ${PORT}`);
     
     
-    // Only run WhatsApp Bot if we are NOT on Render
   
     if (!process.env.RENDER) {
         console.log("Running Locally: Starting WhatsApp Bot...");
