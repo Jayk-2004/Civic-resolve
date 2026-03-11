@@ -34,6 +34,8 @@ app.listen(PORT, () => {
     console.log(`Server started on port ${PORT}`);
     
 
+// 
+
     if (!process.env.RENDER) {
         console.log("Running Locally: Starting WhatsApp Bot...");
         initializeWhatsAppBot();
