@@ -24,9 +24,7 @@ module.exports = function(req, res, next) {
         }
 
         req.officer = decoded.officer;
-        
         // Use .name or .id because .email is not in the token payload
-        
         console.log("Admin Auth Success for Officer ID:", req.officer.id);
         next();
 
