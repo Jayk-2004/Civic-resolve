@@ -4,7 +4,7 @@ const officerSchema = new mongoose.Schema({
     name: { type: String, required: true },
     email: { type: String, required: true, unique: true },
     password: { type: String, required: true },
-    ward: { type: String, required: true }, // Required for Admins
+    ward: { type: String, required: true }, // Required for Admin
     
     // UPDATED: Enum must include 'department'
     role: { 
